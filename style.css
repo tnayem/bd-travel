@@ -204,9 +204,123 @@ button {
 
 /* Popular Tours section end */
 
+/* Destinitation section start */
+.header-text {
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-text h2 {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 30px 0;
+}
+
+/* Destination Gallery */
+.destination-gallery-1,
+.destination-gallery-2,
+.destination-gallery-3{
+    display: flex;
+    gap: 20px;
+}
+
+.maldives h2 {
+    position: absolute;
+    margin-top: 50%;
+}
+
+.destination-gallery-1 div {
+    width: 50%;
+    max-height: 300px;
+}
+
+.destination-gallery-1 div img,
+.destination-gallery-2 div img,
+.destination-gallery-3 div img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.maldives,
+.indonesia,
+.srilanka,
+.north-america,
+.kashmir,
+.bangladesh,
+.bandarban{
+    position: relative;
+}
+
+.maldives h3,
+.indonesia h3,
+.srilanka h3,
+.north-america h3,
+.kashmir h3,
+.bangladesh h3,
+.bandarban h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+/* Destination Gallery 2 */
+.destination-gallery-2 {
+    margin: 20px 0;
+}
+
+.destination-gallery-2 .srilanka {
+    width: 30%;
+    max-height: 300px;
+}
+
+.destination-gallery-2 .north-america {
+    width: 45%;
+    max-height: 300px;
+}
+
+.destination-gallery-2 .kashmir {
+    width: 25%;
+    max-height: 300px;
+}
+
+/* .destination-gallery-2 img {
+    width: 100%;
+    height: 100%;
+} */
+/* Destination Gallery 3 */
+.destination-gallery-3{
+    margin: 20px 0;
+}
+.destination-gallery-3 .bangladesh{
+    width: 40%;
+    max-height: 300px;
+}
+.destination-gallery-3 .bandarban{
+    width: 60%;
+    max-height: 300px;
+}
+
+/* Destinitation section end */
 
 
+/* *********************************************************************************** */
 /* Responsive section */
+/* *********************************************************************************** */
 @media screen and (max-width: 600px) {
 
     /* Header section start */
@@ -269,22 +383,45 @@ button {
     .popular-tours-text ul {
         font-size: 14px;
     }
-    .popular-tours{
+
+    .popular-tours {
         flex-direction: column;
     }
-    .popular-tours-text{
+
+    .popular-tours-text {
         width: 100%;
         padding: 50px 0;
     }
-    .popular-tours-img{
+
+    .popular-tours-img {
         width: 100%;
     }
-    .popular-tours-photo{
+
+    .popular-tours-photo {
         width: 100%;
-        
+
     }
-    .popular-tours-btn{
+
+    .popular-tours-btn {
         width: 50%;
     }
+
     /* Popular Toure end */
+    /* Destination section start */
+    .destination-gallery-1,
+    .destination-gallery-2,
+    .destination-gallery-3 {
+        flex-direction: column;
+    }
+
+    .destination-gallery-1 div,
+    .destination-gallery-2 .srilanka,
+    .destination-gallery-2 .north-america,
+    .destination-gallery-2 .kashmir,
+    .destination-gallery-3 .bangladesh,
+    .destination-gallery-3 .bandarban {
+        width: 100%;
+    }
+    
+    /* Destination section end */
 }
