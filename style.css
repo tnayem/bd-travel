@@ -378,7 +378,79 @@ button {
 }
 
 /* Chose Us Section End */
+/* Deals and Discounts Section Start */
+.deals-section-1 {
+    background: url(./Images/group39.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 55px 0;
+    margin: 20px 0;
+    border-radius: 15px;
+}
 
+/* Deals Section 1 */
+.dil-card {
+    width: 35%;
+    padding: 63px 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+
+}
+
+.deals-card-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.deals-card-main {
+    display: flex;
+    justify-content: right;
+    margin-right: 56px;
+}
+
+.deals-btn {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+}
+
+.deals-card-text h4 {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals-card-text p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.deals-card-text h5 {
+    color: #FF5400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.deals-card-maiddle{
+    margin-left: 56px;
+}
+#deals-card-middle{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 56px;
+}
+/* Deals and Discounts Section End */
 
 /* *********************************************************************************** */
 /* Responsive section */
@@ -504,11 +576,25 @@ button {
     }
 
     /* Chose Us Section end */
-    .header-text h2{
+    .header-text h2 {
         font-size: 20px;
         font-weight: 800;
     }
-    .header-text p{
+
+    .header-text p {
         font-size: 14px;
     }
+    /* Deals and DIscount Section start */
+    .dil-card{
+        width: 60%;
+        margin-top: 200px;
+    }
+    .deals-card-main,
+    #deals-card-middle{
+        margin: 0;
+        justify-content: center;
+        align-items:end;
+        margin-bottom: -10;
+    }
+    /* Deals and DIscount Section end */
 }
