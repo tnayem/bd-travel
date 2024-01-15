@@ -230,7 +230,7 @@ button {
 /* Destination Gallery */
 .destination-gallery-1,
 .destination-gallery-2,
-.destination-gallery-3{
+.destination-gallery-3 {
     display: flex;
     gap: 20px;
 }
@@ -247,7 +247,7 @@ button {
 
 .destination-gallery-1 div img,
 .destination-gallery-2 div img,
-.destination-gallery-3 div img{
+.destination-gallery-3 div img {
     width: 100%;
     height: 100%;
 
@@ -259,7 +259,7 @@ button {
 .north-america,
 .kashmir,
 .bangladesh,
-.bandarban{
+.bandarban {
     position: relative;
 }
 
@@ -269,7 +269,7 @@ button {
 .north-america h3,
 .kashmir h3,
 .bangladesh h3,
-.bandarban h3{
+.bandarban h3 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -303,19 +303,81 @@ button {
     height: 100%;
 } */
 /* Destination Gallery 3 */
-.destination-gallery-3{
+.destination-gallery-3 {
     margin: 20px 0;
 }
-.destination-gallery-3 .bangladesh{
+
+.destination-gallery-3 .bangladesh {
     width: 40%;
     max-height: 300px;
 }
-.destination-gallery-3 .bandarban{
+
+.destination-gallery-3 .bandarban {
     width: 60%;
     max-height: 300px;
 }
 
 /* Destinitation section end */
+/* Chose Us Section Start */
+.chose-us-main {
+    padding: 50px 0;
+}
+
+/* handpicked-hotels start */
+.chose-us-main-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.handpicked-hotels {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 50px 32px;
+}
+
+/* Word Class Service */
+.world-class-service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 50px 32px;
+}
+
+/* Second Row Card */
+.second-row-card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.second-row-main-card {
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 50px 32px;
+}
+
+.chose-us-card h4 {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.chose-us-card p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Chose Us Section End */
 
 
 /* *********************************************************************************** */
@@ -422,6 +484,31 @@ button {
     .destination-gallery-3 .bandarban {
         width: 100%;
     }
-    
+
     /* Destination section end */
+    /* Chose Us Section Start */
+    .chose-us-main-card {
+        flex-direction: column;
+    }
+
+    .second-row-main-card {
+        width: 100%;
+    }
+
+    .chose-us-card h4 {
+        font-size: 20px;
+    }
+
+    .chose-us-card p {
+        font-size: 14px;
+    }
+
+    /* Chose Us Section end */
+    .header-text h2{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .header-text p{
+        font-size: 14px;
+    }
 }
