@@ -441,15 +441,28 @@ button {
     font-weight: 800;
     line-height: normal;
 }
-.deals-card-maiddle{
+
+.deals-card-maiddle {
     margin-left: 56px;
 }
-#deals-card-middle{
+
+#deals-card-middle {
     display: flex;
     justify-content: left;
     align-items: center;
     margin-left: 56px;
 }
+
+.see-all-button {
+    text-align: center;
+}
+
+.see-all-button button{
+    border-radius: 8px;
+    background: #FF5400;
+    color:#FFF;
+}
+
 /* Deals and Discounts Section End */
 
 /* *********************************************************************************** */
@@ -584,17 +597,20 @@ button {
     .header-text p {
         font-size: 14px;
     }
+
     /* Deals and DIscount Section start */
-    .dil-card{
+    .dil-card {
         width: 60%;
         margin-top: 200px;
     }
+
     .deals-card-main,
-    #deals-card-middle{
+    #deals-card-middle {
         margin: 0;
         justify-content: center;
-        align-items:end;
+        align-items: end;
         margin-bottom: -10;
     }
+
     /* Deals and DIscount Section end */
 }
