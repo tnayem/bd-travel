@@ -35,10 +35,12 @@ body {
     font-weight: 800;
     line-height: normal;
 }
-.logo-section img{
+
+.logo-section img {
     max-width: 48px;
     max-height: 56px;
 }
+
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -61,7 +63,6 @@ nav a {
     gap: 25px;
 }
 
-
 #toggler,
 label {
     display: none;
@@ -71,11 +72,70 @@ label i {
     color: black;
 }
 
+/* Header Menu Section end */
+/* Header Banner section Start */
+.header-banner {
+    /* background-image: url(./Images/group13.png); */
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/group13.png);
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 106px 0;
+}
+.header-banner-text{
+    max-width: 667px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-banner-text h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.header-banner-text p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.header-banner-input{
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.418);
+    margin: 0 auto;
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.header-banner-input input, select{
+    padding: 20px 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 23%;
+}
+/* Header Banner section end */
+
+
+
+
+/* Responsive section */
 @media screen and (max-width: 600px) {
 
-    .logo-section h3{
+    /* Header section start */
+    .logo-section h3 {
         font-size: 21.543px;
     }
+
     .menu {
         width: 100%;
         max-height: 0;
@@ -95,4 +155,21 @@ label i {
         align-items: center;
         padding: 20px;
     }
+
+    /* Header section end */
+    /* Header Banner Section start */
+    .header-banner-text h1{
+        font-size: 22px;
+    }
+    .header-banner-text p{
+        font-size: 14px;
+    }
+    .header-banner-input{
+        flex-direction: column;
+        
+    }
+    .header-banner-input input, select{
+        width: 100%;
+    }
+    /* Header Banner Section end */
 }
