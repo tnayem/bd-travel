@@ -564,6 +564,56 @@ button {
 }
 
 /* News latter section end */
+/* Review Section start */
+.review-top {
+    max-width: 90%;
+    margin: 0 auto;
+}
+#review-main{
+    padding: 100px 0;
+}
+.review-top h2 {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.review-top p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px;
+}
+
+.review-card {
+    width: 50%;
+    box-shadow: 2px 2px 5px #888888;
+    padding: 1%;
+}
+.review-card h4{
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.review-card p{
+    color: #5A5A5D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.my-review {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Review Section end */
 
 
 /* *********************************************************************************** */
@@ -728,17 +778,26 @@ button {
     }
 
     /* Perfect Place end */
-    .news-latter{
+    .news-latter {
         flex-direction: column;
     }
+
     .newslatter-form {
         width: 100%;
         padding: 0;
         border: none;
     }
-    
+
     .newslatter-text {
         width: 100%;
     }
-    
+    /* Review section start */
+    .my-review{
+        flex-direction: column;
+    }
+    .review-card{
+        width: 100%;
+    }
+    /* Review section end */
+
 }
