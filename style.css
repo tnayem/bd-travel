@@ -569,9 +569,11 @@ button {
     max-width: 90%;
     margin: 0 auto;
 }
-#review-main{
+
+#review-main {
     padding: 100px 0;
 }
+
 .review-top h2 {
     font-size: 36px;
     font-weight: 800;
@@ -593,20 +595,23 @@ button {
     box-shadow: 2px 2px 5px #888888;
     padding: 1%;
 }
-.review-card h4{
+
+.review-card h4 {
     color: #131318;
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
-.review-card p{
+
+.review-card p {
     color: #5A5A5D;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
 }
+
 .my-review {
     display: flex;
     justify-content: space-between;
@@ -615,7 +620,56 @@ button {
 
 /* Review Section end */
 
+/* Footer section start */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
 
+.footer-logo h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-logo img {
+    max-width: 40px;
+    max-height: 46px;
+    margin-right: 15px;
+}
+
+.footer-section {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.footer-section p {
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.footer-section p i {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.copy-right {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px 0;
+}
+
+/* Footer section end */
 /* *********************************************************************************** */
 /* Responsive section */
 /* *********************************************************************************** */
@@ -791,13 +845,26 @@ button {
     .newslatter-text {
         width: 100%;
     }
+
     /* Review section start */
-    .my-review{
+    .my-review {
         flex-direction: column;
     }
-    .review-card{
+
+    .review-card {
         width: 100%;
     }
+
     /* Review section end */
+    /* Footer section start */
+    .footer-logo img {
+        max-width: 28px;
+        max-height: 33px;
+    }
+    .footer-logo h1{
+        font-size: 21.543px;
+    }
+
+    /* Footer section end */
 
 }
