@@ -457,31 +457,114 @@ button {
     text-align: center;
 }
 
-.see-all-button button{
+.see-all-button button {
     border-radius: 8px;
     background: #FF5400;
-    color:#FFF;
+    color: #FFF;
 }
+
+/* Deals and Discounts Section End */
+
 /* Perfect place Section start*/
-#perfect-place-main{
+#perfect-place-main {
     padding: 90px 0;
 }
-.perfect-place-image{
+
+.perfect-place-image {
     width: 50%;
     max-height: 424px;
 }
-.perfect-place-image img{
+
+.perfect-place-image img {
     width: 90%;
     height: 100%;
     float: right;
     border-radius: 15px;
 }
-.perfect-place{
+
+.perfect-place {
     display: flex;
 }
-/* Perfect place Section start*/
 
-/* Deals and Discounts Section End */
+/* Perfect place Section end*/
+
+/* News latter section start */
+.news-latter {
+    display: flex;
+    gap: 50px;
+}
+
+.newslatter-form {
+    width: 40%;
+}
+
+.newslatter-text {
+    width: 60%;
+    max-height: 422px;
+}
+
+.newslatter-form h4 {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.newslatter-form p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.newslatter-form {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px;
+}
+
+.newslatter-form input {
+    width: 95%;
+    padding: 15px 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.subscribe-btn {
+    padding: 10px 10px;
+    width: 100%;
+    background: #FF5400;
+    margin: 10px;
+    border: none;
+}
+
+/* news-latter image and text section */
+.newslatter-img-text {
+    position: relative;
+}
+
+.newslatter-img-text img {
+    width: 100%;
+}
+
+.newslatter-div {
+    background: #FF5400;
+    width: 30%;
+    color: #FFF;
+    padding: 20px;
+    position: absolute;
+    top: 64%;
+    left: 62%;
+    transform: rotate(-30deg);
+    text-align: center;
+}
+
+/* News latter section end */
+
 
 /* *********************************************************************************** */
 /* Responsive section */
@@ -632,14 +715,30 @@ button {
 
     /* Deals and DIscount Section end */
     /* Perfect Place start */
-    .perfect-place{
+    .perfect-place {
         flex-direction: column;
     }
-    .perfect-place-image{
+
+    .perfect-place-image {
         width: 100%;
     }
-    .perfect-place-image img{
+
+    .perfect-place-image img {
         width: 100%;
     }
+
     /* Perfect Place end */
+    .news-latter{
+        flex-direction: column;
+    }
+    .newslatter-form {
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+    
+    .newslatter-text {
+        width: 100%;
+    }
+    
 }
