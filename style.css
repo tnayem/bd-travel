@@ -462,6 +462,24 @@ button {
     background: #FF5400;
     color:#FFF;
 }
+/* Perfect place Section start*/
+#perfect-place-main{
+    padding: 90px 0;
+}
+.perfect-place-image{
+    width: 50%;
+    max-height: 424px;
+}
+.perfect-place-image img{
+    width: 90%;
+    height: 100%;
+    float: right;
+    border-radius: 15px;
+}
+.perfect-place{
+    display: flex;
+}
+/* Perfect place Section start*/
 
 /* Deals and Discounts Section End */
 
@@ -613,4 +631,15 @@ button {
     }
 
     /* Deals and DIscount Section end */
+    /* Perfect Place start */
+    .perfect-place{
+        flex-direction: column;
+    }
+    .perfect-place-image{
+        width: 100%;
+    }
+    .perfect-place-image img{
+        width: 100%;
+    }
+    /* Perfect Place end */
 }
